@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	  <button onclick="Question2Api()">Question 2 Click me</button>
 	  
 	  <script>
-		//function Question2Api() {
+		function Question2Api() {
 			fetch("https://httpbin.org/get")
 				.then(response => response.json())
 				.then(response => {
@@ -33,14 +33,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				}, error => {
 					console.error(error);
 				})
-		//}
+		}
 	  </script>
 	  
 	  </p>
-	  <button type="button" onclick= >Click Me!</button>
+	  <!--<button type="button" onclick= >Click Me!</button>
 	  <a href="#" onclick="dataLayer.push({
     'key': 'HELLO',
     'value': 'WORLD',
-});">MESSAGE</a>
+});">MESSAGE</a>-->
    </body>
 </html>
